@@ -1,11 +1,33 @@
-Script started on 2016年03月02日 (週三) 23時12分56秒
-]0;C14011277@2015cpp: ~[01;32mC14011277@2015cpp[00m:[01;34m~[00m$ whoami; pwd
+Script started on 2016年03月03日 (週四) 18時26分07秒
+]0;C14011277@2015cpp: ~C14011277@2015cpp:~$ ls
+lab1.script
+]0;C14011277@2015cpp: ~C14011277@2015cpp:~$ vim lab1.script 
+[?1049h[?1h=[1;24r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[24;1H"lab1.script" 0L, 0C[>c[2;1H[1m[34m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H0,0-1[8C全部[1;1H[?12l[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?25l[24;1H[K[24;1H:[?12l[?25hq[?25l[?12l[?25h![?25l[?12l[?25h[?25l[24;1H[K[24;1H[?1l>[?12l[?25h[?1049l]0;C14011277@2015cpp: ~C14011277@2015cpp:~$ whom[Ka[Ko[Kamil[K; pwd
 C14011277
 /home/C14011277
-]0;C14011277@2015cpp: ~[01;32mC14011277@2015cpp[00m:[01;34m~[00m$ git config -l
-]0;C14011277@2015cpp: ~[01;32mC14011277@2015cpp[00m:[01;34m~[00m$ git co[Klone https://github.com/C14011277/lab1.git
+]0;C14011277@2015cpp: ~C14011277@2015cpp:~$ whoami; pwd[K[K[K[K[K
+C14011277
+]0;C14011277@2015cpp: ~C14011277@2015cpp:~$ whoami; pwd
+C14011277
+/home/C14011277
+]0;C14011277@2015cpp: ~C14011277@2015cpp:~$ git config -l
+user.email=ming830710@gmail.com
+user.name=C14011277
+core.repositoryformatversion=0
+core.filemode=true
+core.bare=false
+core.logallrefupdates=true
+]0;C14011277@2015cpp: ~C14011277@2015cpp:~$ https://github.com/C14011277/lab1.git
+bash: https://github.com/C14011277/lab1.git: No such file or directory
+]0;C14011277@2015cpp: ~C14011277@2015cpp:~$ 
+]0;C14011277@2015cpp: ~C14011277@2015cpp:~$ https://github.com/C14011277/lab1.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kgit clone https://github.com/C14011277/lab1.git
 Cloning into 'lab1'...
-warning: You appear to have cloned an empty repository.
-]0;C14011277@2015cpp: ~[01;32mC14011277@2015cpp[00m:[01;34m~[00m$ exit
+remote: Counting objects: 11, done.[K
+remote: Compressing objects:  12% (1/8)   [Kremote: Compressing objects:  25% (2/8)   [Kremote: Compressing objects:  37% (3/8)   [Kremote: Compressing objects:  50% (4/8)   [Kremote: Compressing objects:  62% (5/8)   [Kremote: Compressing objects:  75% (6/8)   [Kremote: Compressing objects:  87% (7/8)   [Kremote: Compressing objects: 100% (8/8)   [Kremote: Compressing objects: 100% (8/8), done.[K
+remote: Total 11 (delta 0), reused 11 (delta 0), pack-reused 0[K
+Unpacking objects:   9% (1/11)   Unpacking objects:  18% (2/11)   Unpacking objects:  27% (3/11)   Unpacking objects:  36% (4/11)   Unpacking objects:  45% (5/11)   Unpacking objects:  54% (6/11)   Unpacking objects:  63% (7/11)   Unpacking objects:  72% (8/11)   Unpacking objects:  81% (9/11)   Unpacking objects:  90% (10/11)   Unpacking objects: 100% (11/11)   Unpacking objects: 100% (11/11), done.
+]0;C14011277@2015cpp: ~C14011277@2015cpp:~$ ls
+[0m[01;34mlab1[0m  lab1.script
+]0;C14011277@2015cpp: ~C14011277@2015cpp:~$ vim lab1[K[K[K[K[K[K[K[Kcat [K[K[K[Kexit
 
-Script done on 2016年03月02日 (週三) 23時13分47秒
+Script done on 2016年03月03日 (週四) 18時27分50秒
