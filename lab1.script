@@ -1,24 +1,43 @@
-Script started on 2016年03月03日 (週四) 19時12分06秒
-]0;C14011277@2015cpp: ~/lab1C14011277@2015cpp:~/lab1$ whoami; pwd
+Script started on 2016年03月13日 (週日) 01時09分09秒
+]0;C14011277@2015cpp: ~C14011277@2015cpp:~$ whoami; pwd
 C14011277
-/home/C14011277/lab1
-]0;C14011277@2015cpp: ~/lab1C14011277@2015cpp:~/lab1$ git config -l
+/home/C14011277
+]0;C14011277@2015cpp: ~C14011277@2015cpp:~$ git config -l
 user.email=ming830710@gmail.com
 user.name=C14011277
 core.repositoryformatversion=0
 core.filemode=true
 core.bare=false
 core.logallrefupdates=true
-remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
-remote.origin.url=https://github.com/C14011277/lab1.git
-branch.master.remote=origin
-branch.master.merge=refs/heads/master
-]0;C14011277@2015cpp: ~/lab1C14011277@2015cpp:~/lab1$ g[Kls
-lab1.cpp  lab1.script  README.md
-]0;C14011277@2015cpp: ~/lab1C14011277@2015cpp:~/lab1$ g__[K[K++ -i [K[Ko lab1 lab1.cpp
+]0;C14011277@2015cpp: ~C14011277@2015cpp:~$ git clone https://github.com/C14011277/lab1.git
+Cloning into 'lab1'...
+remote: Counting objects: 28, done.[K
+remote: Total 28 (delta 0), reused 0 (delta 0), pack-reused 28[K
+Unpacking objects:   3% (1/28)   Unpacking objects:   7% (2/28)   Unpacking objects:  10% (3/28)   Unpacking objects:  14% (4/28)   Unpacking objects:  17% (5/28)   Unpacking objects:  21% (6/28)   Unpacking objects:  25% (7/28)   Unpacking objects:  28% (8/28)   Unpacking objects:  32% (9/28)   Unpacking objects:  35% (10/28)   Unpacking objects:  39% (11/28)   Unpacking objects:  42% (12/28)   Unpacking objects:  46% (13/28)   Unpacking objects:  50% (14/28)   Unpacking objects:  53% (15/28)   Unpacking objects:  57% (16/28)   Unpacking objects:  60% (17/28)   Unpacking objects:  64% (18/28)   Unpacking objects:  67% (19/28)   Unpacking objects:  71% (20/28)   Unpacking objects:  75% (21/28)   Unpacking objects:  78% (22/28)   Unpacking objects:  82% (23/28)   Unpacking objects:  85% (24/28)   Unpacking objects:  89% (25/28)   Unpacking objects:  92% (26/28)   Unpacking objects:  96% (27/28)   Unpacking objects: 100% (28/28)   Unpacking objects: 100% (28/28), done.
+]0;C14011277@2015cpp: ~C14011277@2015cpp:~$ cd lab1/
+]0;C14011277@2015cpp: ~/lab1C14011277@2015cpp:~/lab1$ cat lab1.cpp 
+#include<iostream>
+using namespace std;
+
+int main()
+{
+  int n;
+  cout<<"input n:";
+  cin>>n;
+  while(1)
+  {
+    cout<<n<<" ";
+    if(n == 1) break;
+    else if(n%2 == 1) n = 3*n+1;
+    else n = n/2;
+  }
+  cout<<endl;
+  return 0;
+}
+]0;C14011277@2015cpp: ~/lab1C14011277@2015cpp:~/lab1$ g++ -o lab1 lab1.cpp 
 ]0;C14011277@2015cpp: ~/lab1C14011277@2015cpp:~/lab1$ ./lab1 
 input n:22
 22 11 34 17 52 26 13 40 20 10 5 16 8 4 2 1 
 ]0;C14011277@2015cpp: ~/lab1C14011277@2015cpp:~/lab1$ exit
 
-Script done on 2016年03月03日 (週四) 19時12分56秒
+Script done on 2016年03月13日 (週日) 01時09分48秒
